@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="utility.css">
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="Assets/Images/close.svg" alt="" srcset="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="Assets/Images/logo.svg" alt="" srcset=""></div>
+                <ul>
+                    <li><img class="invert" src="Assets/Images/home.svg" alt="home" srcset="">Home</li>
+                    <li><img class="invert" src="Assets/Images/search.svg" alt="search" srcset="">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="Assets/Images/playlist.svg" alt="playlist" srcset="">
+                    <h2>
+                        Your library
+                    </h2>
+                </div>
+
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">Privacy Center</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamBurgerCont">
+
+                        <img class="invert hamBurger" src="Assets/Images/hamburgur.svg" alt="" srcset="">
+                        <img class="invert" src="Assets/Images/leftBtn.svg" alt="" srcset="">
+                        <img class="invert" src="Assets/Images/rightBtn.svg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotify-playlists">
+                <h1>
+                    Spotify Playlist
+                </h1>
+                <div class="cardContainer">
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <img src="Assets/Images/play-button.svg" alt="" srcset="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002209e79b5b918a0447002b125" alt="">
+                        <h2>Hot Hits Hindi</h2>
+                        <p>Hottest Hindi music served here. Cover - Bad Newz</p>
+                    </div>
+                    <div data-folder="cs" class="card">
+                        <div class="play">
+                            <img src="Assets/Images/play-button.svg" alt="" srcset="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002209e79b5b918a0447002b125" alt="">
+                        <h2>Hot Hits Hindi</h2>
+                        <p>Hottest Hindi music served here. Cover - Bad Newz</p>
+                    </div>
+
+                </div>
+                <div class="playBar">
+                    <div class="seekBar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="aboveBar">
+                        <div class="songInfo">
+
+                        </div>
+                        <div class="songButtons invert">
+                            <img width="27px" id="previous" src="Assets/Images/prevsong.svg" alt="" srcset="">
+                            <img width="27px" id="play" src="Assets/Images/playButton2.svg" alt="" srcset="">
+                            <img width="27px" id="next" src="Assets/Images/nextSong.svg" alt="" srcset="">
+                        </div>
+                        <div class="timeNvol">
+                            <div class="songTime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25" class="invert" src="Assets/Images/volume.svg" alt="" srcset="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
